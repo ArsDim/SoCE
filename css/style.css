@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lora", sans-serif;
+}
+body{
+  background-image: url(../img/back.png);
+  background-size: cover;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.wrapper{
+  width: 80%;
+  background: rgba(255, 255, 255, 0.5);
+  justify-content: center;
+}
+header{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.p_1{
+  font-size: 70px;
+  font-family: Pacifico;
+}
+nav{
+  width: 100%;
+  height: 80px;
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.nav_item{
+  height:55px;
+  width: 150px;
+  background: sandybrown;
+  border-radius: 30px;
+  color: white;
+  font-family: Pacifico;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+section{
+  width: 100%;
+  height: 900px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.main_picture{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.image_1{
+    width: 100% ;
+    height: 80%;
+    background-image: url(../img/mmm.png);
+    background-size: cover;
+    text-align: center;
+    color: black;
+    writing-mode: horizontal-tb;
+  text-orientation: mixed;
+  display: flex;
+  justify-content: center;
+    align-items: top;
+    border: 15px solid #653D00;
+}
+.image_2{
+     width: 81%;
+     height: 300px;
+    background-image: url(../img/myname.png);
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid #653D00;
+}
+.image_3{
+     width: 20%;
+     height: 280px;
+    background-image: url(../img/is.png);
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid #653D00;
+}
+.image_4{
+     width: 20%;
+     height: 280px;
+    background-image: url(../img/ars.png);
+    writing-mode: vertical-lr;
+    text-orientation: mixed;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid #653D00;
+}
+.image_5{
+    width: 81%;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url(../img/human.png);
+    background-size: cover;
+    writing-mode: horizontal-tb;
+    text-orientation: mixed;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid #653D00;
+}
+.p_2_1{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.p_2_2{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+}
+.p_2_3{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  transform: rotate(180deg);
+}
+.p_2_4{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  transform: rotate(180deg);
+}
+.main_text{
+  width: 92%;
+  height: 400px;
+  margin: 0 auto;
+  font-family: "lora", sans-serif;
+  color: rgba(101, 61, 0, 1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-indent: 30px;
+}
+.section_photo{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.section_item_text{
+  width: 30%;
+  height: 40%;
+  background: #653D00;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.section_item_text:nth-child(2){
+  background-image: url(../img/baldi.png);
+  background-size: cover;
+  color: black;
+  border: 15px solid #653D00;
+}
+.section_item_text:nth-child(3){
+  background-image: url(../img/dnk.png);
+  background-size: cover;
+  color: black;
+  border: 15px solid #653D00;
+}
+.section_item_text:nth-child(6){
+  background-image: url(../img/SKM.png);
+  background-size: cover;
+  color: black;
+  border: 15px solid #653D00;
+}
+.section_item_img{
+  width: 30%;
+  height: 55%;
+}
+h1{
+  font-size: 40px;
+  color: white;
+}
+.section_item_img:nth-child(1){
+  display: flex;
+  align-items: stretch;
+  background-image: url(../img/ETIKA.png);
+  background-size: cover;
+  border: 15px solid #653D00;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+}
+.section_item_img:nth-child(4){
+  display: flex;
+  align-items: stretch;
+  background-image: url(../img/ETIKA.png);
+  background-size: cover;
+  border: 15px solid #653D00;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+}
+.section_item_img:nth-child(5){
+  display: flex;
+  flex-direction: row-reverse;
+  background-image: url(../img/python.jpg);
+  background-size: 135%;
+  border: 15px solid #653D00;
+}
+.text{
+  width: 100%;
+  color: #653D00;
+  text-indent: 35px;
+  display: flex;
+  justify-content: center;
+}
+.intext{
+  width: 90%;
+  font-size: 25px;
+}
+footer{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  background: #653D00;
+}
+h3{
+  color: white;
+  font-size: 25px;
+}
+.footer_text{
+  color: white;
+  line-height: 3;
+  font-size: 25px;
+}
+.footer_img{
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+}
+.main_t_2{
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
